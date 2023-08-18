@@ -1,0 +1,73 @@
+.verification-form{
+    display: flex;
+
+}
+.verification-form-left-container{
+    width: 50%;
+    background-color: #000000;
+    background-size: cover;
+    min-height: 100vh;
+    padding-left: 40px;
+
+}
+
+.verification-form-right-container{
+    width: 43%;
+    margin-top: 75px;
+    margin-left: 105px;
+    height: 100%;
+    background-color: #ffffff;
+}
+.company-logo-in-verification-form{
+    height: 60px;
+    width: 240px;
+    
+}
+.verification-form-heading{
+    font: bold 26px/31px "Avenir LT 65 Medium";
+    width: 428px;
+    margin-top: 65px;
+    margin-bottom: 49px;
+}
+.verification-form-description{
+    font-size: 16px;
+    font-family: "avenir";
+    font-weight: 500;
+}
+.custom-styles{
+    --ReactInputVerificationCode-itemWidth: 97px;
+  --ReactInputVerificationCode-itemHeight: 55px;
+
+
+
+  
+}
+.custom-styles .ReactInputVerificationCode__item {
+    color:black;
+    font-weight: 500;
+    position: relative;
+    content: "";
+
+  }
+  
+  .custom-styles .ReactInputVerificationCode__item:after {
+    content: "";
+    display: block;    
+    background-color: #ebebeb;
+    transition: background-color 0.2s ease-out;
+  }
+
+  .resend-code{
+    font: normal normal bold 14px/22px "Avenir LT 65 Medium";
+    margin-top: 23px;
+    margin-bottom: 34px;
+    margin-left: 350px;
+  }
+  .submit-button-for-verification{
+    background-color: #000000;
+    font: normal normal bold 20px/24px "Avenir LT 65 Medium";
+    color:#FFFE37 ;
+    width: 450px;
+    height: 60px;
+  }
+  

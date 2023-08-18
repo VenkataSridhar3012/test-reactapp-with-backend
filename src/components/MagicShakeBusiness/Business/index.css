@@ -1,0 +1,197 @@
+.business-outer-container {
+  display: flex;
+  width:100%;
+}
+
+.business-inner-container {
+  padding: 0px 25px 25px 30px;
+  width: 82%;
+}
+
+.business-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.business-filter-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+.business-heading {
+  font: 20px "Avenir";
+  color: #000000;
+  font-weight: 600;
+  margin: 0;
+  height: 30px;
+}
+
+.active-business {
+  font: normal normal bold 22px/47px "Avenir LT 65 Medium";
+  letter-spacing: 0.77px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.business-description {
+  font:  14px "Avenir";
+  letter-spacing: 0.49px;
+  color: #000000;
+  opacity: 1;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 6px;
+}
+
+.search-input-container {
+  width: 195px;
+  height: 42px;
+  background-color: #ebebeb;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
+.search-input {
+  outline: none;
+  border: none;
+  font: normal normal medium 12px/47px Avenir;
+  letter-spacing: 0.42px;
+  color: #837878;
+  background-color: transparent;
+  padding-left: 3px;
+  width:90%;
+  
+}
+
+.filter-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin: 0;
+}
+
+.qr-btn {
+  width: 173px;
+  max-width: 230px;
+  height: 42px;
+  /* UI Properties */
+  background: #fffe37 0% 0% no-repeat padding-box;
+  opacity: 1;
+  font: normal normal bold 14px/16px "Avenir LT 65 medium";
+  letter-spacing: 0.49px;
+  color: #000000;
+  font-weight: bold;
+  border-width: 0px;
+}
+.qr-button-link{
+  text-decoration: none;
+  color: #000000;
+}
+
+.filter-container {
+  width: 375px;
+  height: 773px;
+}
+.campaign-filter-heading{
+  font: 20px "Avenir LT 65 Medium";
+  font-weight: bold;
+}
+.campaign-filter-heading-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.campaigns-container{
+  margin-left: 20px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  
+  
+  
+}
+.qr-button-container{
+  margin-top: 60%;
+}
+/* .campaigns-line{
+  width: ;
+} 
+*/
+.qr-form-Container{
+  height: 100vh;
+}
+.campaigns-description{
+  font: 12px/26px "Avenir";
+}
+.campaigns-radio-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.campaigns-label{
+  font: 16px "Avenir";
+}
+.last-30{
+  margin-top: 10px;
+}
+.select-mbu-heading{
+  font:17px/44px "Avenir";
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+.mbu-button-container{
+  margin-top: 80%;
+}
+
+.new-value{
+margin-top: 95%;}
+
+.form-container{
+  margin-top: 0px;
+  box-shadow:  0px 0px 10px  #00000029;
+
+}
+
+.to-get-end{
+  margin-top: 62vh;
+
+}
+.new-to-get-end{
+  margin-top: 50vh;
+
+}
+.margin-adjust{
+  margin: 20px;
+}
+
+
+.cancel-button-qr{
+  height:40px;
+  width:100px;
+  background-color: transparent;
+  font-family: "avenir";
+  font-size: 15px;
+  font-weight: bold;
+
+}
+.radio-button-color{
+  accent-color: black;
+  height: 16px;
+  width: 16px;
+
+}
+@media screen and (width>1600px){
+.search-input-container{
+  width: 28%;
+}
+.qr-btn{
+  width: 25%;
+}
+  
+}

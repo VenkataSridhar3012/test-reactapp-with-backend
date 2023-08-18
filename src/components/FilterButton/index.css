@@ -1,0 +1,16 @@
+.filter-btn {
+  width: 139px;
+  height: 42px;
+  background-color: transparent;
+  border: 1.5px solid #000000;
+  opacity: 1;
+  font-family: "Avenir";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+}

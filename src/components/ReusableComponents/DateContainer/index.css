@@ -1,0 +1,19 @@
+.icon-date-container{
+    margin-left: 10px;
+    display: flex;
+
+}
+.initial-date-list-new{
+    margin-left: 15px;
+    width: 90px;
+}
+
+
+.date-icon-size{
+    height: 13px;
+    width: 12px;
+    margin-top: 3px;
+}
+.new-date-title{
+    margin-top: 0px;
+}

@@ -1,0 +1,17 @@
+.ticketArrowIcon{
+    display: flex;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+.ticketName{
+    margin-top: 10px;
+}
+.ticket-heading1 {
+    font: 22px/47px "Avenir";
+    letter-spacing: 0.77px;
+    color: #000000;
+    font-weight: 600;
+    margin: 0;
+    height: 30px;
+    padding-left: 5px;
+  }

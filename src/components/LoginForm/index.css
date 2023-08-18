@@ -1,0 +1,59 @@
+.login-form-main-container{
+    display: flex;
+    background-color: #ffffff;
+
+}
+.login-form-left-container{
+    width: 50%;
+    background-color: #000000;
+    background-size: cover;
+    min-height: 100vh;
+    padding-left: 40px;
+
+}
+
+
+.login-form-right-container{
+    width: 43%;
+    margin-top: 75px;
+    margin-left: 95px;
+    height: 100%;
+}
+.login-form-company-logo{
+    height: 60px;
+    width: 240px;
+}
+.login-heading{
+    font:  22px "Avenir LT 65 Medium";
+    font-weight: bold;
+    margin-top: 35px;
+
+}
+.login-description{
+    font-family: "avenir";
+    font-size: 14px;
+    font-weight: 500;
+
+
+}
+.forgot-password-in-login-form{
+    font-family: "avenir";
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 339PX;
+
+    
+}
+.login-button{
+    width: 450px;
+    height: 60px;
+    background-color: #000000;
+    color:#FFFE37;
+    font-family: "Avenir LT 65 Medium";
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+
+
+}

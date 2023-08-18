@@ -1,0 +1,17 @@
+.bonus-credit-details-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.bonus-scroll{
+    overflow: scroll;
+    width:100%;
+    height: 74vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .bonus-scroll::-webkit-scrollbar{
+    width: 0;
+  }

@@ -1,0 +1,183 @@
+.offline-business-heading {
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 10px;
+    font-family: "Avenir";
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .bold-heading {
+    font-weight: bold;
+  }
+  .morefilter-with-icon{
+    display: flex;
+    align-items: center;
+    outline: none;
+    border:none;
+    background-color:transparent;
+    
+  }
+  .down-arrow-icon{
+    margin-left: 20px;
+    height: 8px;
+    width: 15px;
+
+  }
+  .more-filter-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:10px ;
+  }
+  .sort-by-heading{
+    font:   18px "Avenir" ;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+
+  .sort-by-description{
+    font-size: 12px;
+    font-family: "avenir";
+    margin-top: 5px;
+  }
+
+  .close-icon-size{
+    height: 17px;
+    width: 17px;
+    margin-right: 10px;
+  }
+  .more-filter-heading{
+    font: 13px/18px "Avenir";
+    font-weight: 600;
+
+  }
+  .entire-restaurant-details{
+    display: flex;
+    width: 100%;
+  }
+  .scroll{
+    padding-top: 20px;
+    overflow: scroll;
+    width:100%;
+    height: 65vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .scroll::-webkit-scrollbar{
+    width: 0;
+  }
+ .show-cursor{
+  cursor: pointer;
+ }
+
+
+
+ /* more filter*/
+ .analytics-container {
+  box-shadow: 0px 3px 6px #00000029;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.analytics-container1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.analytics-container2 {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.analytics-container3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.analytics-container33 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.analytics-container4 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0px 0px 2px 0px #00000029;
+  
+}
+
+.input {
+  height: 17px;
+  width: 17px;
+}
+
+.shake-side-heading {
+  font: normal normal bold 13px/26px "Avenir" LT 65 Medium;
+  height: 15px;
+  padding-left: 10px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.spin {
+  font: normal normal bold 13px/26px "Avenir" LT 65 Medium;
+
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.label1 {
+  padding-left: 20px;
+}
+
+.label {
+  font: normal normal medium 13px/26px "Avenir";
+  color: #212121;
+  font-weight: 400;
+}
+
+.apply {
+  background: #000000 0% 0% no-repeat padding-box;
+  color: #fffe37;
+  width: 136px;
+  height: 42px;
+  font: normal normal medium 14px/19px Avenir;
+}
+
+.clear {
+  font-weight: 500;
+  outline: none;
+  border: none;
+  color: #000000;
+  background: none;
+}
+
+.heading {
+  text-align: left;
+  font: normal normal bold 16px/26px "Avenir" LT 65 Medium;
+  letter-spacing: 0.56px;
+  color: #212121;
+  font-size: 20px;
+}
+
+.para {
+  text-align: left;
+  font: normal normal medium 12px/26px "Avenir";
+  letter-spacing: 0.42px;
+  color: #212121;
+  font-size: 14px;
+}
+  .button-container-new{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  }

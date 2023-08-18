@@ -1,0 +1,55 @@
+.forgot-password-form-main-container{
+    display: flex;
+
+}
+.forgot-password-form-left-container{
+    width: 50%;
+    background-color: #000000;
+    background-size: cover;
+    min-height: 100vh;
+    padding-left: 40px;
+
+}
+
+
+.forgot-password-form-right-container{
+    width: 43%;
+    margin-top: 75px;
+    margin-left: 105px;
+    height: 100%;
+    background-color: #ffffff;
+}
+.company-logo-size-in-forgotform{
+    width: 240px;
+    height: 65px;
+    margin-bottom: 60px;
+
+}
+.forgot-password-heading{
+    font-size: 26px;
+    font-family: "Avenir LT 65 Medium";
+    font-weight: bold;
+}
+.forgot-password-description{
+    font-size: 14px;
+    font-family: "avenir";
+    width:400px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.valid-email-description{
+    font-size: 14px;
+    font-family: "avenir";
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+}
+.send-email-button{
+    width: 450px;
+    height: 60px;
+    background-color: #000000;
+    color: #FFFE37;
+    font-size: 20px;
+    font-family: "Avenir LT 65 Medium";
+}

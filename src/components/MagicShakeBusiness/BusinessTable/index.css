@@ -1,0 +1,193 @@
+.pagination-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  
+}
+ 
+.business-table-container {
+  margin-top: 20px;
+  max-height: 74vh; 
+  overflow: scroll;
+}
+
+.name {
+  font: normal normal bold 14px "Avenir LT 65 Medium";
+  vertical-align: middle;
+  margin: 0;
+  height: 19px;
+}
+
+.mail {
+  font: normal normal medium 13px "Avenir";
+  color: #000000;
+  margin: 0px;
+}
+
+.table-checkbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  margin-right: 0px;
+  /* color:"secondary" */
+  accent-color: black;
+ /* margin-top: 20px; */
+ margin-left: 10px;
+}
+.business-td{
+  text-align: left;
+  font: normal normal 14px/20px "Avenir";
+  opacity: 1;
+  vertical-align: middle;
+  font-weight: bold;
+  height: 70px;
+
+}
+
+.pop-up-container {
+  width: 527px;
+  height: 450px;
+  box-shadow: 0px 0px 20px #64646429;
+  background-color: white;
+  padding: 15px 15px 15px 25px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.pop-up-close-icon {
+  width: 17px;
+  height: 17px;
+  align-self: flex-end;
+}
+
+.pop-up-heading-container {
+  display: flex;
+  align-items: center;
+}
+
+.pop-up-heading {
+  font: normal normal bold 14px/37px "Avenir LT 65 Medium";
+  letter-spacing: 0.49px;
+  color: #000000;
+  opacity: 1;
+  margin: 0;
+}
+
+.pop-up-hr {
+  border: 1px solid #fcde3c;
+  width: 314px;
+  height: 0px;
+}
+
+.pop-up-icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.pop-up-icon-container {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.pop-up-text {
+  font: normal normal bold 17px/36px "Avenir LT 65 Medium";
+  letter-spacing: 0.78px;
+  color: #000000;
+  opacity: 1;
+  height: 26px;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.pop-up-icon {
+  margin-right: 10px;
+  width: 49px;
+  height: 43px;
+}
+
+.pop-up-description {
+  font: normal normal normal 12px/13px "Avenir";
+  letter-spacing: 0.55px;
+  color: #1e252b;
+  opacity: 1;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.hr-after-icon {
+  width: 0px;
+  height: 31px;
+  border: 1px solid #ebebeb;
+  opacity: 1;
+}
+
+.hr-container {
+  width: 5%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* .popup-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} */
+
+.scroll-new{
+  padding-top: 20px;
+  overflow: scroll;
+  height: 100vh;
+  overflow-x: hidden;
+
+}
+
+.fixTableHead {
+  overflow:scroll;
+   overflow-x: hidden;
+}
+.fixTableHead thead th {
+  position: sticky;
+  top: 0;
+  
+}
+.fixTableHead::-webkit-scrollbar{
+  width: 0;
+}
+
+.business-table-container-new{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+}
+/* .tabs a.active { background-color:black } */
+
+.tooltip {
+  /* position: relative; */
+  overscroll-behavior-y:display inside;
+  /* overscroll-behavior-inline: ; */
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color:gray;
+  color:#ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

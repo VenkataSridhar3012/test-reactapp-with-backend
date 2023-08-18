@@ -1,0 +1,71 @@
+.separate-ticket-table{
+  margin: 0;
+display: flex;
+width: 100%;
+flex-direction:row;
+height: 100vh;
+
+
+}
+.tab-container11{
+padding: 20px 25px 25px 30px;
+display: flex;
+flex-direction: column;
+width: 67%;
+}
+.ticket-tab-container{
+height: 117px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+/* box-shadow: 0px 0px 9px #ded7d729; */
+opacity: 1;
+
+}
+
+.ticket-heading1 {
+  font: 22px/47px "Avenir";
+  letter-spacing: 0.77px;
+  color: #000000;
+  font-weight: 600;
+  margin: 0;
+  height: 30px;
+  padding-left: 5px;
+}
+/* .ticket-table-container{
+  margin-top: 20px;
+  display: flex;
+  height: 83vh;
+  overflow: auto;  
+  margin: 0;
+  
+} */
+.businessArrow{
+ margin-top: 10px;
+
+}
+
+.chat-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+height: 51px;
+background: #000000 0% 0% no-repeat padding-box;
+border-radius: 8px;
+font: normal normal medium 20px/52px "Avenir";
+letter-spacing: 0.7px;
+color: #FFFFFF;
+}
+.chat-icon{
+  color:"#FFFE37" ;
+}
+.status{
+  color: red;
+}
+.ticket-table-body-border:hover{
+  background-color: rgb(228, 232, 232);
+  
+}
+.restuarant-Info-chatButton{
+  display: flex;
+  flex-direction: column;
+}

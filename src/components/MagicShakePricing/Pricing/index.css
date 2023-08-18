@@ -1,0 +1,241 @@
+.total-pricing-container{
+    display: flex;
+    
+
+
+}
+.pricing-container{
+    width: 82%;
+    margin-left: 30px;
+    margin-right: 20px;
+
+}
+
+
+.bonous-credits-side-heading{
+    font:  22px "Avenir";
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.bonus-description{
+    font:  14px "Avenir";
+    margin-top: 5px;
+
+
+
+}
+.search-input-in-bonus-credits{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size :16px; 
+    font-family: "Avenir";
+    width: 200px;
+    padding-left: 10px;
+
+
+}
+.search-container-in-bonus-credits{
+    display: flex;
+    align-items: center;
+    background-color:  #EBEBEB;
+    height: 42px;
+    width: 256px;
+}
+.add-bonus-button{
+    height: 42px;
+    width: 161px;
+    background-color: #000000;
+    color:#FFFE37;
+    margin-left:15px ;
+}
+
+.button-and-search-container{
+    display: flex;
+}
+.heading-search-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.close-icon-size-in-form{
+    height: 16px;
+    width: 16px;
+    margin-right :20px ;
+}
+.form-heading-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.form-line{
+    width: 100%;
+    height: 1px;
+    border-width: 0;
+    background-color: #00000029;
+}
+.addbonus-form-heading{
+    font-size: 24px ;
+    font-weight: bold;
+    font-family: "avenir";
+    margin-top:10px ;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    color: #000000;
+
+
+}
+.input-element{
+    height: 65px;
+    width: 423px;    
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border-width: 1px ;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+    color:#000000; 
+    border: 1px solid #E1E1E1;
+
+}
+.pricing-form-side-heading{
+    font:16px;
+    padding-left: 10px;
+    font-family: "avenir";
+    font-weight: bold;
+}
+.pricing-radio{
+    height: 20px;
+    width: 20px;
+
+}
+.pricing-label{
+    font-size:17px ;
+    font-weight: 500;
+    font-family: "avenir";
+
+}
+.pricing-radio-container{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 0px;
+    margin-right: 40px;
+}
+.pricing-radios-container{
+    display: flex;
+    align-items: center;
+}
+.pricing-drop{
+    height: 65px;
+    width: 96px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-size: 400;
+
+}
+.country-name{
+    font-weight: 400;
+    font-family: "avenir";
+}
+.pricing-input{
+    height: 60px;
+    width: 96px;
+    text-align: center;
+    outline: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-color: #E1E1E1;
+}
+.price-container{
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #E1E1E1;
+    width: 192px;
+    height: 65px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.save-button{
+    height:59px ;
+    width: 154px;
+    font-size: 16px;
+    font-family: "avenir";
+    font-weight: bold;
+    color: #FFFE37;
+    background-color: #000000;
+    margin-right: 10px;
+
+}
+.cancel-button{
+    height:59px ;
+    width: 154px;
+    font-size: 16px;
+    font-family: "avenir";
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid #707070;
+
+
+}
+.pricing-buttons-container{
+    margin-top: 45px;
+    padding-left: 10px;
+}
+
+.pricing-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+.up-and-down-arrow{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.arrow-size-in-table{
+    height: 7px;
+    width: 10px;
+   
+}
+.table-head-container{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.pricing-table-heading{
+    margin: 0px;
+    font-family: "avenir";
+    font-weight: bold;
+    padding-top: 0px;
+
+}
+.padding-to-head{
+    padding-left: 20px;
+}
+
+.pricing-td{
+    text-align: left;
+    font: normal normal 14px/20px "Avenir";
+    opacity: 1;
+    vertical-align: middle;
+    font-weight: bold;
+    padding-left: 20px;
+    height: 60px;
+  
+
+}
+
+/* ::placeholder{
+    color:#000000;
+    font-weight: 500;
+} */

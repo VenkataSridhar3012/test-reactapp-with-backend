@@ -1,0 +1,52 @@
+.pagination-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+/* .ticket-table-container {
+  margin-top: 20px;
+  display: flex;
+  max-height: 83vh;
+  overflow: auto; 
+} */
+
+.ticket-table-container{
+  margin-top: 20px;
+  display: flex;
+  max-height: 83vh;
+  overflow: auto;  
+
+  
+}
+.ticket-table-container::-webkit-scrollbar {
+  display: none;
+  height: 70px;
+}
+
+.table-td{
+  text-align: left;
+  font: normal normal 14px/20px "Avenir";
+  opacity: 1;
+  vertical-align: middle;
+  font-weight: bold;
+  padding-left: 20px;
+  height: 70px;
+
+}
+
+.table-heading-bg-color {
+  background-color: #e5f4f1;
+  vertical-align: middle;
+  position: sticky;
+  top: 0;
+  
+  
+    
+}
+.ticket-table-body-border {
+  border-bottom: 0.5px solid #707070;
+  
+  
+}

@@ -1,0 +1,44 @@
+.sidebar-container {
+  height: 100vh;
+  width: 19vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  /* background-color: #707070; */
+}
+
+.company-icon {
+  padding: 20px;
+}
+
+.sidebar-items-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.logout-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 53px;
+  background-color: #f7f7f7;
+  position: absolute;
+  bottom: 0%;
+  width: 17%;
+}
+
+.hr {
+  height: 29px;
+  border: 0.5px solid #707070;
+}
+
+.settings-icon {
+  width: 33px;
+  height: 29px;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  min-width: 54px;
+}

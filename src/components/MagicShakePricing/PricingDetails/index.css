@@ -1,0 +1,110 @@
+.pricing-detail-container{
+    width: 83%;
+}
+
+.pricing-detail-with-sidebar{
+    display: flex;
+    
+}
+.new-height{
+  text-align: left;
+  font: normal normal 14px/20px "Avenir";
+  opacity: 1;
+  vertical-align: middle;
+  height: 50px;
+  font-weight: bold;
+  padding-left: 20px;
+
+}
+
+
+.pricing-date{
+    font-size:20px ;
+    font-family: "avenir";
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.pricing-detail-heading-container{
+    box-shadow: 0px 0px 10px #00000029;
+    margin-bottom:15px ;
+    width: 100%;
+   
+}
+.arrow-heading-in-pricedatail{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+}
+.individual-price{
+    box-shadow: 0px 0px 10px #00000029;
+    width:177px ;
+    height: 109px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin-top: 40px;
+    margin-right: 25px;
+
+    
+}
+.pricing-title{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-family: "avenir";
+
+
+}
+.price{
+    font-size:26px ;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: "avenir";
+}
+
+.individual-price-container{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+    
+}
+.pricing-table{
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 50px;
+
+
+}
+.mbu-value{
+    font: normal normal bold 14px/47px "Avenir LT 65 Medium";
+letter-spacing: 0.49px;
+color: #000000;
+opacity: 1;
+}
+/* 
+.pricing-table-heading-bg-color{
+    margin-left: 60px;
+    
+} */
+.need-margin{
+    padding-left: 20px;
+}
+.pricing-fixTableHead {
+    overflow:scroll;
+    height: 62vh;
+    overflow-x: hidden;
+  }
+  .pricing-fixTableHead thead th {
+    position: sticky;
+    top: 0;
+  }
+  .pricing-fixTableHead::-webkit-scrollbar{
+    width: 0;
+  }

@@ -1,0 +1,17 @@
+.bonus-table-container {
+    max-height: 100vh;
+    overflow: scroll;
+    margin-top: 0px;
+  }
+  .fixTableHead {
+    overflow:scroll;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+  .fixTableHead thead th {
+    position: sticky;
+    top: 0;
+  }
+  .fixTableHead::-webkit-scrollbar{
+    width: 0;
+  }

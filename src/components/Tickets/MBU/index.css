@@ -1,0 +1,24 @@
+.mbu-buttons-container{
+    margin-top: 400px;
+    padding-left: 40px;
+}
+.mbu-drawer-heading{
+    font-size: 24px ;
+    font-weight: bold;
+    font-family: "Avenir LT 65 Medium";
+    margin-top:10px ;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    color: #000000;
+}
+.mbu-drawer-heading1{
+    padding-left: 40px;
+}
+.mbu-drawer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}

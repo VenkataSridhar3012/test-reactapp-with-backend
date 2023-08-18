@@ -1,0 +1,14 @@
+.close-icon-size-in-form{
+    margin-right: 20px;
+}
+
+.Tcancel-button{
+    height:59px ;
+    width: 154px;
+    font-size: 16px;
+    font-family: "avenir";
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid #707070;
+
+}

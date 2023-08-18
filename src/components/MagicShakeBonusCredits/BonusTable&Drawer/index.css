@@ -1,0 +1,251 @@
+.bonous-credits-side-heading{
+    font:  22px "Avenir LT 65 Medium";
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.bonus-description{
+    font:  14px "Avenir";
+    margin-top: 5px;
+
+
+
+}
+
+.search-input-in-bonus-credits{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size :16px; 
+    font-family: "Avenir";
+    width: 200px;
+    padding-left: 10px;
+
+
+}
+.search-container-in-bonus-credits{
+    display: flex;
+    align-items: center;
+    background-color:  #EBEBEB;
+    height: 42px;
+    width: 256px;
+}
+.add-bonus-button{
+    height: 42px;
+    width: 161px;
+    background-color: #000000;
+    color:#FFFE37;
+    margin-left:15px ;
+}
+
+.button-and-search-container{
+    display: flex;
+}
+.heading-search-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+
+.addbonus-form-heading{
+    font-size: 24px ;
+    font-weight: bold;
+    font-family: "avenir";
+
+}
+
+.close-icon-size-in-form{
+    height: 16px;
+    width: 16px;
+    margin-right :20px ;
+}
+.form-heading-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    
+}
+.form-line{
+    width: 100%;
+    height: 1px;
+    border-width: 0;
+    background-color: #00000029;
+    margin: 0px;
+}
+
+.radio-button-size{
+    width: 20px;
+    height:20px;
+
+}
+.radio-container{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+.label{
+    font-size: 17px;
+    font-family: "avenir";
+    margin-left: 15px;
+    font-weight: bold;
+}
+.radios-container{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    width: 443px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.checkbox-size{
+    height: 20px;
+    width: 20px;
+}
+.dropdown{
+    width: 443px;
+}
+.input-element{
+    height: 65px;
+    width: 443px;
+    font-size: 16px;
+    font-family: "avenir";
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border-color:#E1E1E1;
+    border-width: 1px ;
+    padding-left: 15px;
+
+
+}
+.input-element::placeholder{
+    color: #000000;
+}
+
+.byMbu-form{
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0px;
+   
+}
+
+.save-button{
+    height:59px ;
+    width: 154px;
+    font-size: 16px;
+    font-family: "avenir";
+    font-weight: bold;
+    color: #FFFE37;
+    background-color: #000000;
+    margin-right: 10px;
+
+}
+.cancel-button{
+    height:59px ;
+    width: 154px;
+    font-size: 16px;
+    font-family: "avenir";
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid #707070;
+
+
+}
+.button-container{
+    margin-top: 30%;
+    
+}
+.form-search-container{
+    display: flex;
+    align-items: center;
+    border: 1px solid #707070;
+    height: 46px;
+    width: 323px;
+    margin-left: 10px;
+
+}
+.form-input-element{
+    width:260px;
+    border: none;
+    background-color: transparent;
+    font-size:16px "avenir" ;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    font-family: "avenir";
+}
+
+.add-button-in-form{
+    height: 48px;
+    width: 101px;
+    background-color: #000000;
+    color: #FFFE37;
+    font-family: "avenir";
+    margin-left: 15px;
+}
+.search-and-add-button{
+    display: flex;
+}
+
+
+.business-button-container{
+    margin-top: 12%;
+
+}
+
+.byBusiness-form{
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+.bonus-credit-container{
+    display: flex;
+}
+
+.bonus-container{
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 83%;
+}
+.bonus-table{
+    text-align: left;
+    font: normal normal 14px/20px "Avenir";
+    opacity: 1;
+    vertical-align: middle;
+    font-weight: bold;
+    padding-left: 20px;
+    height: 70px;
+
+
+}
+.padding-to-head{
+    padding-left: 20px;
+}
+
+.table-head-margin{
+line-height: 1.5;
+}
+
+.date-picker-container{
+    display: flex;
+}
+
+.business-input-element{
+    height: 50px;
+    width: 428px;
+    font-size: 16px;
+    font-family: "avenir";
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border-color:#E1E1E1;
+    border-width: 1px ;
+    padding-left: 15px;
+
+}
+.business-input-element::placeholder{
+    color: #000000;
+}
+

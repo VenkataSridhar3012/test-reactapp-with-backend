@@ -1,0 +1,55 @@
+.analytical-container {
+    box-shadow: 0px 0px 10px #00000029;
+    width: 97%;
+    height: 232px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+  }
+  
+  .shake-offer-heading {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: "Avenir";
+    font-size: 20px;
+  }
+  .campaigns-icon {
+    width: 53px;
+    height: 45px;
+    margin: 10px;
+  }
+  .shake-detail-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+  .analytical-data-container {
+    display: flex;
+    align-items: center;
+  }
+  .analytical-title {
+    font: normal normal normal 15px/16px Avenir;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .analytical-value {
+    font-family: "avenir";
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .analytical-data-list {
+    display: flex;
+    justify-content: space-around;
+  }
+  .separating-line {
+    border: 1px solid #e6e6e6;
+    height: 92px;
+    margin-left: 35px;
+  }
+
+  .icon-title-container{
+    margin-right: 20px;
+  }
+  

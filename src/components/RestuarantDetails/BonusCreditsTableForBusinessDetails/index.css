@@ -1,0 +1,35 @@
+
+  .bonous-credits-container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .pagination-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  .padding-to-row{
+    padding-left: 20px;
+  }
+
+  .bonus-in-business-fixTableHead {
+    overflow:scroll;
+    height: 75vh;
+    overflow-x: hidden;
+    margin-top: 0px;
+  }
+  .bonus-in-business-fixTableHead thead th {
+    position: sticky;
+    top: 0;
+  }
+  .bonus-in-business-fixTableHead::-webkit-scrollbar{
+    width: 0;
+  }
+  
+  .business-table-container-new{
+    display: flex;
+    align-items: center;
+  }
+  
+  
